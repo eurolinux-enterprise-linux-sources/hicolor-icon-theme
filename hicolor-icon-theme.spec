@@ -1,7 +1,7 @@
 Summary: Basic requirement for icon themes
 Name: hicolor-icon-theme
 Version: 0.12
-Release: 6%{?dist}
+Release: 7%{?dist}
 License: GPL+
 Group: User Interface/Desktops
 URL: http://icon-theme.freedesktop.org/wiki/HicolorTheme
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 %ghost %{_datadir}/icons/hicolor/icon-theme.cache
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.12-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.12-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
